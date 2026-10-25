@@ -1,7 +1,7 @@
 public class TradeEvent {
     protected String senderId;
     protected long timestamp;
-    protected basePrice; // double type
+    protected double basePrice; // double type
 
     // Parameterized constructor
     public TradeEvent(String senderId, long timestamp, double basePrice) {
